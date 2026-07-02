@@ -8,7 +8,7 @@ services:
       - path: .env
         required: false
     volumes:
-      - .:/workspaces/copilot-cli:cached
+      - .:/workspaces/codex:cached
     depends_on:
       - db
 
