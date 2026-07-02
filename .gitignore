@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+.npm/
+
+# Logs & caches
+*.log
+.cache/
+
+# Build artifacts
+dist/
+build/
