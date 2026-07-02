@@ -19,7 +19,7 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-codex}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-codex_password}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me_local_only}
       POSTGRES_DB: ${POSTGRES_DB:-codex}
     volumes:
       - postgres_data:/var/lib/postgresql/data
