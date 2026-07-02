@@ -42,11 +42,11 @@ Domyślne ustawienia PostgreSQL:
 - host: `localhost`
 - port: `5432`
 - user: `codex`
-- password: `change_me_local_only`
+- password: wartość `POSTGRES_PASSWORD` z pliku `.env`
 - database: `codex`
 - volume: `postgres_data`
 
-> ⚠️ Przed użyciem poza środowiskiem lokalnym ustaw własne, silne hasło `POSTGRES_PASSWORD`.
+> ⚠️ Ustaw własne, silne hasło `POSTGRES_PASSWORD` w `.env` przed uruchomieniem usług.
 
 ## Zmienne środowiskowe (OpenAI)
 
