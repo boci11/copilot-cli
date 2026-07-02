@@ -1,6 +1,6 @@
 # Codex
 
-Repozytorium projektu **Codex** z przygotowanym szkieletem pod dalszy rozwój: dokumentację, kod aplikacji, dane, skrypty automatyzacji oraz środowisko developerskie oparte o Dev Container i Docker Compose.
+Repozytorium projektu **Codex** z przygotowanym szkieletem pod dalszy rozwój: dokumentację, kod aplikacji, dane, skrypty automatyzacji oraz środowisko developerskie oparte na Dev Container i Docker Compose.
 
 ## Struktura katalogów
 

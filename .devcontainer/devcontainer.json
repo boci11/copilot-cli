@@ -6,7 +6,6 @@
   "service": "app",
   "workspaceFolder": "/workspaces/codex",
   "shutdownAction": "stopCompose",
-  "features": {},
   "customizations": {
     "vscode": {
       "extensions": [
