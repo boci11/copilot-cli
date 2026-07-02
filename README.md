@@ -1,6 +1,6 @@
 # Codex
 
-Repozytorium projektu **Codex** z przygotowanym szkieletem pod dalszy rozwój: dokumentację, kod aplikacji, dane, skrypty automatyzacji oraz środowisko deweloperskie oparte na Dev Container i Docker Compose.
+Repozytorium projektu **Codex** z przygotowanym szkieletem do dalszego rozwoju, obejmującym dokumentację, kod aplikacji, dane, skrypty automatyzacji oraz środowisko deweloperskie oparte na Dev Container i Docker Compose.
 
 ## Struktura katalogów
 
@@ -55,6 +55,8 @@ W projekcie używany jest plik `.env` (lokalnie, niecommitowany). Bazuj na `.env
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
 ```
+
+Ta zmienna będzie wykorzystywana przez komponenty aplikacji rozwijane w `src/` (np. moduły integracji z API OpenAI).
 
 Możesz też wyeksportować zmienną w shellu:
 
