@@ -24,7 +24,7 @@ Uruchomienie:
 2. Otwórz repozytorium w VS Code.
 3. Wybierz: **Dev Containers: Reopen in Container**.
 
-Konfiguracja korzysta z `docker-compose.yml`, dzięki czemu kontener deweloperski działa razem z bazą danych.
+Konfiguracja korzysta z Docker Compose (`docker compose`), dzięki czemu kontener deweloperski działa razem z bazą danych.
 
 ## Baza danych (Docker Compose)
 
