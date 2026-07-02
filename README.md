@@ -1,10 +1,10 @@
 # Codex
 
-Repozytorium projektu **Codex** z przygotowanym szkieletem pod dalszy rozwój: dokumentację, kod aplikacji, dane, skrypty automatyzacji oraz środowisko developerskie oparte na Dev Container i Docker Compose.
+Repozytorium projektu **Codex** z przygotowanym szkieletem pod dalszy rozwój: dokumentację, kod aplikacji, dane, skrypty automatyzacji oraz środowisko deweloperskie oparte na Dev Container i Docker Compose.
 
 ## Struktura katalogów
 
-- `.devcontainer/` – konfiguracja środowiska developerskiego w kontenerze.
+- `.devcontainer/` – konfiguracja środowiska deweloperskiego w kontenerze.
 - `src/` – kod źródłowy aplikacji.
 - `docs/` – dokumentacja i zebrane informacje projektowe.
 - `data/` – dane lokalne/pliki pomocnicze wykorzystywane w projekcie.
@@ -24,7 +24,7 @@ Uruchomienie:
 2. Otwórz repozytorium w VS Code.
 3. Wybierz: **Dev Containers: Reopen in Container**.
 
-Konfiguracja korzysta z `docker-compose.yml`, dzięki czemu kontener developerski działa razem z bazą danych.
+Konfiguracja korzysta z `docker-compose.yml`, dzięki czemu kontener deweloperski działa razem z bazą danych.
 
 ## Baza danych (Docker Compose)
 
