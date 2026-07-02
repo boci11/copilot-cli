@@ -1,0 +1,28 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    command: sleep infinity
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - .:/workspaces/copilot-cli:cached
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-codex}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-codex_password}
+      POSTGRES_DB: ${POSTGRES_DB:-codex}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
